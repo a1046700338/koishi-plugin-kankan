@@ -1,4 +1,4 @@
-# @sakurafeiyu/koishi-plugin-kankan
+# koishi-plugin-kankan
 
 [![npm](https://img.shields.io/npm/v/@sakurafeiyu/koishi-plugin-kankan?style=flat-square)](https://www.npmjs.com/package/@sakurafeiyu/koishi-plugin-kankan)
 

@@ -1,7 +1,6 @@
 {
-  "name": "@sakurafeiyu/koishi-plugin-kankan",
+  "name": "koishi-plugin-kankan",
   "description": "一款基于koishi框架的自定义萌弱型机器人",
-  "author": {"name": "sakurafeiyu","email": "sakurafeiyu666@163.com","url": "https://sakurafeiyu.top"},
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -10,39 +9,13 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {
-    "commit": "git-cz && git push",
-    "release": "release-it",
-    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a1046700338/koishi-plugin-kankan.git"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "changelog": {
-    "bugsUrl": "https://github.com/a1046700338/koishi-plugin-kankan/issues/",
-    "emojis": true,
-    "authorName": true,
-    "authorEmail": true
-  },
+  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "^4.15.0"
-  },
-  "devDependencies": {
-    "commitizen": "^4.3.0",
-    "conventional-changelog-cli": "^4.1.0",
-    "conventional-changelog-custom-config": "^0.3.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "release-it": "^16.2.1"
+    "koishi": "^4.15.7"
   }
 }
